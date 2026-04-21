@@ -81,4 +81,4 @@ Feature: Easter theme mode
     Then all text elements have sufficient color contrast against the Easter background
     And all interactive elements such as buttons and links remain keyboard accessible
     And the theme toggle control has a visible focus indicator
-    And the theme toggle aria-label identifies the current active theme
+    And the theme toggle aria-label communicates the current theme and how to change it to screen reader users
